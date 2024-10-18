@@ -105,7 +105,7 @@ sentry {
   org.set("emerge-tools")
   projectName.set("hackernews-android")
 
-  ignoredVariants.set(listOf("debug", "fast"))
+  ignoredVariants.set(listOf("debug", "fast", "release"))
 
   // Don't upload source code to Sentry
   includeSourceContext.set(false)
